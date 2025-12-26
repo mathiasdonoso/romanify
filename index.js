@@ -1,6 +1,6 @@
-const { intToRoman, romanToInt } = require('./src/Romanify')
+import { intToRoman, romanToInt } from './src/Romanify.js';
 
-module.exports = {
+export default {
   intToRoman,
   romanToInt
-}
+};
