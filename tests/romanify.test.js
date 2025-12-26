@@ -1,6 +1,6 @@
 import test from 'node:test';
 import { strictEqual } from 'node:assert';
-import { romanToInt, intToRoman } from './../src/Romanify.js';
+import { romanToInt, intToRoman } from '../src/romanify.js';
 
 // Translation from Roman numbers to Integers
 test('it should translate I', () => {

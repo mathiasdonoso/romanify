@@ -1,11 +1,11 @@
 {
   "name": "romanify",
   "version": "0.0.1",
-  "description": "Roman numbers helper",
+  "description": "Converts integers to Roman numerals and Roman numerals back to integers",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest tests"
+    "test": "node ./tests/romanify.test.js"
   },
   "author": "Mathías Donoso <mathiasd88@gmail.com>",
   "license": "MIT",
